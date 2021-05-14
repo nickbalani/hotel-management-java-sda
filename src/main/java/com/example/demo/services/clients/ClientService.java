@@ -7,10 +7,7 @@ import java.util.Optional;
 
 public interface ClientService {
     Optional<Client> findById(int id);
-
     List<Client> findAll();
-
     int save(SaveClientRequest request);
-
     void delete(int id);
 }

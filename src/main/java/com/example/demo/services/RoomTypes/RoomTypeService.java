@@ -7,10 +7,7 @@ import java.util.Optional;
 
 public interface RoomTypeService {
     Optional<RoomType> findById(int id);
-
     List<RoomType> findAll();
-
     int save(SaveRoomTypeRequest request);
-
     void delete(int id);
 }
